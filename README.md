@@ -4,8 +4,8 @@ Este proyecto es una herramienta web desarrollada con **Spring Boot** para la ge
 
 # Imagenes del proyecto
 
-![Interfaz de la aplicación](./screenshots/Pantalla_.png)
-![Interfaz de la aplicación](./screenshots/Pantalla_2.png)
+![Interfaz de la aplicación 1](./screenshots/Pantalla_1.png)
+![Interfaz de la aplicación 2](./screenshots/Pantalla_2.png)
 
 ## Funcionalidades Principales
 
