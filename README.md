@@ -2,7 +2,10 @@
 
 Este proyecto es una herramienta web desarrollada con **Spring Boot** para la gestión de clientes. En el front-end, se utiliza la plantilla **SB Admin 2**, que puedes encontrar [aquí](https://startbootstrap.com/theme/sb-admin-2).
 
-![Interfaz de la aplicación](./screenshot/Pantalla_1.png)
+# Imagenes del proyecto
+
+![Interfaz de la aplicación](./screenshots/Pantalla_1.png)
+![Interfaz de la aplicación](./screenshots/Pantalla_2.png)
 
 ## Funcionalidades Principales
 
