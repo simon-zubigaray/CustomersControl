@@ -6,12 +6,8 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "customers")
-public class Customer {
+public class Customer extends Person {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_customer;
-    private String firstname;
-    private String lastname;
-    private String email;
-    private String address;
 }
