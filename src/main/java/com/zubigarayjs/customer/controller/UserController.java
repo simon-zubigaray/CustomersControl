@@ -2,6 +2,7 @@ package com.zubigarayjs.customer.controller;
 
 import com.zubigarayjs.customer.model.User;
 import com.zubigarayjs.customer.service.IUserService;
+import com.zubigarayjs.customer.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,10 +19,8 @@ public class UserController {
     //lectura de muchos objetos
     @GetMapping("/users")
     @ResponseBody
-    public List<User> getUsers() {
-        List<User> listaUsers;
-        listaUsers = cs.getUsers();
-        return listaUsers;
+    public List<User> getUsers(String token) {
+        return cs.getUsers();
     }
 
     //lectura de un objeto
